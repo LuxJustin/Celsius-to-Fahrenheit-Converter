@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Celsius to Fahrenheit Converter</title>
+  </head>
+
+  <body class="bg-dark">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="card card-body border border-warning">
+            <form id="form" >
+              <h1 class="heading display-4 px-5 text-center">Celsius to Fahrenheit Converter</h1>
+              <div class="form-group">
+                <label for="">Celsius</label>
+                <div class="input-group">
+                  <span class="input-group-text">&#8451;</span>
+                  <input type="number" class="form-control" id="celsius" placeholder="Celsius">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="">Fahrenheit</label>
+                <div class="input-group">
+                  <span class="input-group-text">&#8457;</span>
+                  <input type="number" class="form-control" id="fahrenheit" placeholder="Fahrenheit" disabled>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-warning btn-block">Convert</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <script src="app.js"></script>
+  </body>
+</html>
